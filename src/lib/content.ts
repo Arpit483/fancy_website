@@ -8,7 +8,6 @@ export interface SiteContent {
     bio: string;
     location: string;
     email: string;
-    phone: string;
     github: string;
     linkedin: string;
   };
