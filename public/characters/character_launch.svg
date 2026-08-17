@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 120" width="100" height="120">
+  <!-- Ground shadow — very faint (launching upward) -->
+  <ellipse cx="50" cy="114" rx="8" ry="2" fill="rgba(0,0,0,0.08)" />
+  <g fill="none" stroke="#111111" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Head up (launching) -->
+    <circle cx="50" cy="20" r="12" fill="#ffffff" />
+    <!-- Extended torso, arms wide -->
+    <path d="M 50 32 L 50 66 M 50 38 L 26 22 M 50 38 L 74 22" />
+    <!-- Launching legs -->
+    <path d="M 50 66 L 36 88 L 42 108 M 50 66 L 64 88 L 58 108" />
+  </g>
+</svg>

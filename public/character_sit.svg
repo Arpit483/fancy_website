@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 120" width="100" height="120">
+  <!-- Ground shadow — prevents floating look -->
+  <ellipse cx="50" cy="112" rx="16" ry="3.5" fill="rgba(0,0,0,0.18)" />
+  <g fill="none" stroke="#111111" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Head -->
+    <circle cx="50" cy="30" r="12" fill="#ffffff" />
+    <!-- Hair accent -->
+    <path d="M 42 22 Q 50 16 58 22" />
+    <!-- Torso -->
+    <path d="M 50 42 L 50 75 M 50 48 L 38 62 M 50 48 L 62 62" />
+    <!-- Seated legs -->
+    <path d="M 50 75 L 32 82 L 48 98 M 50 75 L 68 82 L 52 98" />
+  </g>
+</svg>

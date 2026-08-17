@@ -1,0 +1,175 @@
+{
+  "personal": {
+    "name": "Arpit Deosthale",
+    "brandTitle": "ARPIT.CO",
+    "tagline": "AI-native engineer building ML systems, full-stack products, and IoT devices.",
+    "bio": "Computer Engineering student at Dr. D.Y. Patil Institute of Technology, Pune (2023–2027). I build end-to-end ML systems — from a radar-based human detection model that made the Smart India Hackathon Finals, to facial-recognition attendance systems, to IoT sensor fusion on bare ESP32. I compete in 20+ hackathons and CTFs and ship fast under ambiguity.",
+    "location": "Pune, India",
+    "email": "arpitdeosthale12@gmail.com",
+    "phone": "+91 7219268027",
+    "github": "https://github.com/Arpit483",
+    "linkedin": "https://linkedin.com/in/arpit-deosthale"
+  },
+  "uiCopy": {
+    "walkStatus": "Walk with A or D keys, arrow keys, or on-screen controls to explore.",
+    "actionStatus": "Interactive landmark. Press E or tap to explore.",
+    "tiltEnable": "Tilt phone to walk",
+    "tiltDisable": "Stop tilt",
+    "tiltPermission": "Hold phone at a comfortable angle to calibrate.",
+    "tiltActive": "Tilt control active. Tilt phone left or right to walk.",
+    "tiltDenied": "Tilt control permission denied. Use on-screen arrows.",
+    "tiltUnsupported": "Tilt control unsupported on this device. Use on-screen arrows.",
+    "soundEnable": "Sound on",
+    "soundDisable": "Sound off",
+    "discoveryKicker": "domain landmark",
+    "openArticle": "View Project",
+    "nextArticle": "Next Project",
+    "returnWorld": "Return to Walkable World",
+    "transitionEntering": "Entering Act II — Summary Map.",
+    "touchLabels": {
+      "inspect": "Inspect",
+      "skip": "Skip Scene",
+      "cancel": "Cancel",
+      "openLink": "Open Link",
+      "nextProject": "Next Project",
+      "interact": "Interact"
+    }
+  },
+  "domainPaths": [
+    {
+      "id": "ai-ml",
+      "label": "AI & Machine Learning",
+      "icon": "[AI]",
+      "borderStyle": "solid",
+      "fontWeight": "700",
+      "description": "Model training, real-time inference, RAG systems, and deployment — from radar classifiers to LLM-powered document intelligence."
+    },
+    {
+      "id": "fullstack",
+      "label": "Full-Stack Engineering",
+      "icon": "[DEV]",
+      "borderStyle": "dashed",
+      "fontWeight": "500",
+      "description": "Node/Express backends, React frontends, PostgreSQL/Firebase/MongoDB — shipping working products, not prototypes."
+    },
+    {
+      "id": "iot-embedded",
+      "label": "IoT & Embedded Systems",
+      "icon": "[IOT]",
+      "borderStyle": "solid",
+      "fontWeight": "600",
+      "description": "ESP32 multi-sensor fusion, Raspberry Pi edge inference — hardware-software systems built from scratch."
+    },
+    {
+      "id": "open-source",
+      "label": "Open Source",
+      "icon": "[Git]",
+      "borderStyle": "dotted",
+      "fontWeight": "500",
+      "description": "Confirmed contributions to community projects, including a shipped bugfix to the Odysseus project."
+    },
+    {
+      "id": "hackathons",
+      "label": "Hackathons & Competitions",
+      "icon": "[HACK]",
+      "borderStyle": "solid",
+      "fontWeight": "600",
+      "description": "20+ hackathons and CTFs, Smart India Hackathon Finalist — comfortable with ambiguity, pressure, and rapid pivoting."
+    }
+  ],
+  "featuredProjects": [
+    {
+      "id": "vital-radar",
+      "title": "VITAL Radar",
+      "subtitle": "ML-Based Human Detection System — SIH Finalist",
+      "description": "Owned the full product lifecycle end-to-end: problem framing, model training, real-time inference, and live demo. Selected for Smart India Hackathon Finals from thousands of entries. Trained and deployed ML classification models on Raspberry Pi behind a Flask REST backend for reliable real-time radar-based human detection under real-world conditions, with Firebase integration for remote monitoring.",
+      "tags": ["ai-ml"],
+      "tech": ["Python", "scikit-learn", "Raspberry Pi", "Flask", "Firebase"],
+      "github": null,
+      "demo": null,
+      "worldX": 2600
+    },
+    {
+      "id": "wahan-mitra",
+      "title": "Wahan Mitra",
+      "subtitle": "Intelligent IoT Headlamp Automation",
+      "description": "Self-initiated IoT system on ESP32 with multi-sensor fusion (IR, ultrasonic, LDR) to solve a real low-visibility driving problem from scratch. Implements real-time environment classification and automated beam-switching logic — embedded AI and sensor-driven inference with no reference template. Patent filed.",
+      "tags": ["ai-ml", "iot-embedded"],
+      "tech": ["ESP32", "Embedded C", "IR/Ultrasonic/LDR Sensors"],
+      "github": null,
+      "demo": null,
+      "worldX": 3400
+    },
+    {
+      "id": "autoattend",
+      "title": "AutoAttend",
+      "subtitle": "AI-Powered Facial Recognition Attendance",
+      "description": "Team-based, facial-recognition attendance system replacing manual, proxy-prone tracking, with a Java Android frontend and a Python/Flask backend. REST APIs handle real-time face detection, attendance marking, role-based access across student/teacher/admin roles, and Excel-based report exports. Patent filed.",
+      "tags": ["ai-ml", "fullstack"],
+      "tech": ["Python", "Flask", "OpenCV", "PostgreSQL", "Firebase", "Android"],
+      "github": null,
+      "demo": null,
+      "worldX": 4100
+    },
+    {
+      "id": "legal-doc-analyzer",
+      "title": "Legal Document Analyzer",
+      "subtitle": "LLM-Powered Document Intelligence",
+      "description": "AI platform that extracts, summarizes, and interprets legal documents using LLMs, reducing manual review effort on complex contracts and legal texts. Implements document ingestion, semantic search, and context-aware question answering via RAG.",
+      "tags": ["ai-ml"],
+      "tech": ["Python", "LangChain", "NLP", "RAG", "Ollama"],
+      "github": null,
+      "demo": null,
+      "worldX": 9400
+    },
+    {
+      "id": "hack2hire",
+      "title": "Hack2Hire",
+      "subtitle": "AI-Powered Mock Interview Platform",
+      "description": "Hackathon build simulating realistic technical interviews with AI-generated questions and instant feedback. Built in 24 hours at a hackathon — demonstrates rapid prototyping and full-stack integration with modern LLMs.",
+      "tags": ["fullstack", "hackathons"],
+      "tech": ["React 18", "Vite", "Tailwind", "Gemini API"],
+      "github": "https://github.com/Arpit483/Hack2Hire",
+      "demo": null,
+      "worldX": 10200
+    },
+    {
+      "id": "odysseus",
+      "title": "Odysseus — Open Source",
+      "subtitle": "Confirmed Bugfix Contribution",
+      "description": "Diagnosed and fixed a NameError in routes/chat_routes.py in the Odysseus open-source project, submitted as a PR to the dev branch. Worked on Windows with uv tooling. Demonstrates ability to read unfamiliar codebases and contribute cleanly.",
+      "tags": ["open-source"],
+      "tech": ["Python", "uv"],
+      "github": "https://github.com/pewdiepie-archdaemon/odysseus",
+      "demo": null,
+      "worldX": 14500
+    }
+  ],
+  "skills": {
+    "languages": ["Python", "Java", "C/C++", "JavaScript", "TypeScript"],
+    "mlAndData": ["NumPy", "Pandas", "scikit-learn", "TensorFlow/Keras", "LangChain", "Ollama", "RAG Systems", "Signal Processing"],
+    "softwareDevelopment": ["Node.js", "Express.js", "React", "Next.js", "Android"],
+    "databases": ["MongoDB", "Firebase", "PostgreSQL", "SQL"],
+    "cloudAndDevOps": ["AWS", "Google Cloud", "Git/GitHub", "Linux", "Raspberry Pi", "ESP32"]
+  },
+  "experience": [
+    {
+      "role": "EPM Lead & Event Organizer",
+      "org": "TEDx DYPIT",
+      "year": "2025",
+      "description": "Led the Event Production and Management team, coordinating volunteers and ensuring seamless execution of the event."
+    },
+    {
+      "role": "Technical Event Organizer",
+      "org": "Accunetix 13.0 DSA Contest",
+      "year": "2025",
+      "description": "Co-organized a large-scale technical symposium, managing contest logistics, coordination, and problem-setting for the coding competition."
+    }
+  ],
+  "achievements": [
+    "Smart India Hackathon Finalist — selected from thousands of teams with an independently built ML prototype (VITAL Radar)",
+    "20+ Hackathons & CTFs — consistent competitor across security & ML domains",
+    "AWS & Google Cloud Certified (via Credly, ongoing)",
+    "Two patents filed: AutoAttend (facial recognition attendance) and Wahan Mitra (IoT sensor fusion)"
+  ]
+}
