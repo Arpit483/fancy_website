@@ -506,7 +506,6 @@ export const WalkableAtlasWorld: React.FC = () => {
                 <h2>Contact &amp; Resume</h2>
                 <p>
                   <strong>Email:</strong> arpitdeosthale12@gmail.com |{' '}
-                  <strong>Phone:</strong> +91 7219268027 | <strong>Location:</strong> Pune, India
                 </p>
                 <div className="summary-actions">
                   <a
@@ -592,7 +591,6 @@ export const WalkableAtlasWorld: React.FC = () => {
                 github: 'https://github.com/Arpit483',
                 linkedin: 'https://linkedin.com/in/arpit-deosthale',
                 email: 'arpitdeosthale12@gmail.com',
-                phone: '+91 7219268027',
               },
             },
             domainPaths: [
@@ -725,7 +723,6 @@ export const WalkableAtlasWorld: React.FC = () => {
             },
             contact: {
               email: 'arpitdeosthale12@gmail.com',
-              phone: '+91 7219268027',
               github: 'https://github.com/Arpit483',
               linkedin: 'https://linkedin.com/in/arpit-deosthale',
               location: 'Pune, India',
